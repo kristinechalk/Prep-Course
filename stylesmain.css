@@ -1,0 +1,99 @@
+/* Recipe styling */
+
+/* Base */
+
+body {
+	background-color: #26AB37;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+header {
+	background-color: #FFEA00;
+	padding-left: 10px;
+	margin: 10px 0;
+	border: 5px solid white;
+	text-align: center;
+}
+
+h1 {
+	font-size: 250%;
+}
+
+footer {
+	background-color: #FFEA00;
+	margin: 10px 0;
+	border: 5px solid white;
+	text-align: center;
+}
+
+/* Modules */
+.js-imgToggle {
+	float: right;	
+}
+
+.intro {
+	font-family: cursive;
+	margin: auto;
+	text-align: center;
+}
+
+.intro_img {
+	position: relative;
+	border: 4px solid #094F12;
+	border-radius: 100%;
+	width: 275px;
+    height: 275px;
+    display: inline-block;
+    overflow: hidden;
+    transition: box-shadow 1s ease, -webkit-transform 1s ease; 
+}
+
+.intro_img:hover {
+	box-shadow: 5px 5px 30px rgba(0,0,0,.75);
+	-webkit-transform: scale(1.1, 1.1);
+	z-index: 1;
+}
+
+.intro_img img {
+	max-height: 300px;
+    transition: max-height 1s ease;
+}
+
+.intro_img:hover img {
+	max-height: 400px;
+}
+
+.intro_text {
+	width: 50%;
+	padding: 20px;
+	margin: auto;
+	font-size: 120%;
+}
+
+.instructions {
+	color: #303030;
+	background: white;
+	width: 50%;
+	border: 4px solid #094F12;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 10px auto;
+}
+
+.instructions ul {
+	padding-left: 19px;
+}
+
+.instructions ul li {
+	list-style-type: none;
+}
+
+.instructions ol {
+	cursor: pointer;
+}
+
+/* State */
+.highlighted {
+	background-color: #FFEA00;
+}
